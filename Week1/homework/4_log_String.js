@@ -6,7 +6,7 @@ console.log('This is my Full Name');
 
 console.log(myString);
 
-let = 'Deren Busra';
+myString = 'Deren Busra';
 
 console.log('This is my daughter`s name');
 
