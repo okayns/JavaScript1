@@ -16,7 +16,7 @@ function allSame(cardNum) {
     let strCardNum = cardNum.toString()
     let count = 0;
     for (let i = 0; i < strCardNum.length; ++i) {
-        if (strCardNum[i] === strCardNum[0]) { // fixing 0 indexed element and comparing it with other digits is same or not. if one of the is different if statemen going to be false and func return false.
+        if (strCardNum[i] === strCardNum[0]) { // fixing 0 indexed element and comparing it with other digits is same or not. if one of them is different if statement going to be false and func return false.
             count++
         }
     }
