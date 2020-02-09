@@ -2,9 +2,8 @@
 
 function sumDigit(cardNum) {
     let sum = 0;
-    let numStr = cardNum.toString();
-    for (let i = 0; i < numStr.length; i++) {
-        sum += Number(numStr[i]); // Also we can convert the numStr to number with parseFloat(str). But i dont know which is better choice.
+    for (let i = 0; i < cardNum.length; i++) {
+        sum += cardNum[i]; 
     }
     if (sum < 16) {
         return false;
