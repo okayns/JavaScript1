@@ -3,7 +3,7 @@
 function sumDigit(cardNum) {
     let sum = 0;
     for (let i = 0; i < cardNum.length; i++) {
-        sum += cardNum[i]; 
+        sum += Number(cardNum[i]); 
     }
     if (sum < 16) {
         return false;
